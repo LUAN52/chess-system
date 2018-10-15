@@ -1,10 +1,13 @@
 package application;
 
+import boardGame.Position;
+
 public class Program {
 
 	public static void main(String[] args) {
 		
-		System.out.println("ola");
+		Position P=new Position(2,3);
+		System.out.println(P);
 	}
 
 }
